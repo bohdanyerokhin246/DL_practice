@@ -7,7 +7,6 @@ import (
 	"net/http"
 )
 
-// TASK
 func createHandler(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Query().Get("name")
 	address := r.URL.Query().Get("address")

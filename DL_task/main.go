@@ -2,7 +2,6 @@ package main
 
 import "net/http"
 
-// TASK
 func main() {
 	http.HandleFunc("/create", createHandler)
 	http.HandleFunc("/get", getHandler)

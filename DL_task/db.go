@@ -15,7 +15,6 @@ const (
 	dbname   = "DL_test"
 )
 
-// TASK
 func insertRecord(name, address string) error {
 	connStr := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
 		host, port, user, password, dbname)
